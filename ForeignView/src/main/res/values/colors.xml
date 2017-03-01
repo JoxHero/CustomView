@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="quote_rise_pressed">#de2425</color>
+    <color name="quote_rise_normal">#ff5152</color>
+    <color name="quote_fall_pressed">#05a873</color>
+    <color name="quote_fall_normal">#00c07f</color>
+    <color name="quote_invar_pressed">#3f3f3f</color>
+    <color name="quote_invar_normal">#666666</color>
+</resources>
