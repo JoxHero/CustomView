@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ForeignView" />
+            <option value="$PROJECT_DIR$/recycleviewanima" />
+            <option value="$PROJECT_DIR$/starview" />
             <option value="$PROJECT_DIR$/study" />
           </set>
         </option>

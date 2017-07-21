@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_coutent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="zyp.com.recycleviewanima.MainActivity">
+
+    <zyp.com.recycleviewanima.AnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+    />
+
+
+    <View
+        android:layout_width="match_parent"
+          android:layout_height="match_parent"
+        android:background="@android:color/black"
+    />
+   <!-- <ListView
+        android:background="#ffffffff"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>-->
+</LinearLayout>

@@ -9,10 +9,32 @@
     <com.zyp.study.ReticleView
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:visibility="gone"
         />
 
     <com.zyp.study.PieView
         android:id="@+id/v_pie"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:visibility="gone"
+    />
+
+    <com.zyp.study.StarView
+        android:id="@+id/v_star"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:visibility="gone"
+    />
+
+    <com.zyp.study.StudyPath
+        android:id="@+id/v_study_path"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+    />
+
+    <com.zyp.study.RemoteControlMenu
+        android:id="@+id/rcm"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
     />

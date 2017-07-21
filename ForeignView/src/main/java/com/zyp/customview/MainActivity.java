@@ -2,6 +2,7 @@ package com.zyp.customview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("zyp", "onCreate: ");
         foreignView = (ForeignView)findViewById(R.id.foreign_view);
         foreignMarketView = (QuoteView)findViewById(R.id.foreign_market_view);
         foreignView.setType("ff");
@@ -33,5 +35,29 @@ public class MainActivity extends AppCompatActivity {
 
         riskLineView = (RiskLineView)findViewById(R.id.view_risk);
         riskLineView.setLineWidth(400,2);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d("zyp", "onResume: ");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d("zyp", "onPause: ");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d("zyp", "onStop: ");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d("zyp", "onDestroy: ");
     }
 }
